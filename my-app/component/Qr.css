@@ -1,0 +1,60 @@
+:root {
+    background: hsl(212, 45%, 89%);
+
+}
+
+.container {
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px #888888;
+    width: 20%;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    padding: 1em;
+    position: relative;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(218, 44%, 22%);
+    padding: 1em;
+    position: relative;
+}
+
+
+img {
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 800px) {
+.container{
+    width: 80%;
+}
+}
